@@ -1004,6 +1004,7 @@ class Display(object):
             data (bytes): Data to transmit.
         """
         #  0x40 -> Co=0, D/C#=1
+
         self.i2c.writeto_mem(self.address, 0x40, data)
 
     def write_cmd_spi(self, command, *args):
