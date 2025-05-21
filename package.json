@@ -2,7 +2,9 @@
   "urls": [
     ["ssd1309.py", "github:ryanwrightdevel/micropython-ssd1309/ssd1309.py"],
     ["xglcd_font.py", "github:ryanwrightdevel/micropython-ssd1309/xglcd_font.py"],
-    ["fonts/Bally7x9.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Bally7x9.c"]
+    ["fonts/Unispace12x24.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Unispace12x24.c"],
+    ["fonts/custom/Unispace12px_10x19.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Unispace12x24.c"],
+    ["fonts/custom/Unispace40px_32x64.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Unispace12x24.c"]
   ],
   "version": "1.0.0"
 }
