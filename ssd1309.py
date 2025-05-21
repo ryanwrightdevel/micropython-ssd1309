@@ -992,7 +992,7 @@ class Display(object):
             *args (optional bytes): Data to transmit.
         """
         # 0x80 -> Co=1, D/C#=0
-        self.i2c.writeto_mem(self.address, 0x80, bytearray([command]))
+        self.i2c.writeto_mem(self.address, 0x80, bytearray(command))
         if args:
             #  0x40 -> Co=0, D/C#=1
             self.i2c.writeto_mem(self.address, 0x40, bytearray(args))
