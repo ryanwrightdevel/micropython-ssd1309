@@ -2,10 +2,14 @@
   "urls": [
     ["ssd1309.py", "github:ryanwrightdevel/micropython-ssd1309/ssd1309.py"],
     ["xglcd_font.py", "github:ryanwrightdevel/micropython-ssd1309/xglcd_font.py"],
+    ["fonts/Spaceman33x32.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Spaceman33x32.c"],
+    ["fonts/Bitstream_Vera35x32.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Bitstream_Vera35x32.c"],
+    ["fonts/PerfectPixel_23x32.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/PerfectPixel_23x32.c"],
     ["fonts/Unispace12x24.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/Unispace12x24.c"],
     ["fonts/custom/Unispace12px_10x19.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/custom/Unispace12px_10x19.c"],
     ["fonts/custom/Unispace40px_32x64.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/custom/Unispace40px_32x64.c"],
-    ["fonts/custom/Unispace38px_31x61.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/custom/Unispace38px_31x61.c"]
+    ["fonts/custom/Unispace37px_30x59.c", "github:ryanwrightdevel/micropython-ssd1309/fonts/custom/Unispace37px_30x59.c"]
+
   ],
   "version": "1.0.0"
 }
